@@ -1,5 +1,4 @@
-![Logo](/images/Logo.png)
-Format: ![Alt Text](https://github.com/edsonmaia/maiaflix/blob/master/src/assets/img/Logo.png)
+![Logo](https://github.com/edsonmaia/maiaflix/blob/master/src/assets/img/Logo.png)
 
 Projeto de App criado durante a Imersão React da Alura.
 
