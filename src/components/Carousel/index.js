@@ -1,4 +1,4 @@
-import React from 'react';
+                                                                                                                                                                                                                                                                                                             import React from 'react';
 import { VideoCardGroupContainer, VideoCardList, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
 

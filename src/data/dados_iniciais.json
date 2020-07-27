@@ -60,12 +60,8 @@
           "url": "https://www.youtube.com/watch?v=Cy7Y8Jmdw8w"
         },
         {
-          "titulo": "Extra 01 - Como usar o Google Earth",
-          "url": "https://www.youtube.com/watch?v=1PZIVrYUIhI"
-        },
-        {
-          "titulo": "Extra 02 - App Merge Explorer",
-          "url": "https://www.youtube.com/watch?v=70LgFtkVfzY"
+          "titulo": "Produzir maquete em EVA",
+          "url": "https://www.youtube.com/watch?v=AeHMawcMxVQ"
         }
       ]
     },
@@ -87,6 +83,38 @@
         }
       ]
     },
+    {
+      "titulo": "Geografia e Astronomia",
+      "cor": "purple",
+      "videos": [
+        {
+          "titulo": "A Terra no Sistema Solar",
+          "url": "https://www.youtube.com/watch?v=2JTPUXqWEKg"
+        },
+        {
+          "titulo": "A Terra em movimento",
+          "url": "https://www.youtube.com/watch?v=_hvwmwCIbSA"
+        }
+    ]
+},
+{
+  "titulo": "Geografia, Astronomia e Meteorologia",
+  "cor": "red",
+  "videos": [
+    {
+      "titulo": "A circulação geral da atmosfera, o tempo e o clima",
+      "url": "https://www.youtube.com/watch?v=1lZDLyMKwwE"
+    },
+    {
+      "titulo": "Ciclones, Furacões, Tufões e Tornados",
+      "url": "https://www.youtube.com/watch?v=11NJB81im1Q"
+    },
+    {
+      "titulo": "As intervenções humanas na dinâmica climáticas",
+      "url": "https://www.youtube.com/watch?v=V-v3wTK_KpI"
+    }
+]
+},
     {
       "titulo": "Filmes",
       "cor": "orange",
