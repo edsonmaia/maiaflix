@@ -1,0 +1,169 @@
+{
+  "categorias": [
+    {
+      "titulo": "Geografia",
+      "link": "https://www.edsonmaiap.wordpress.com",
+      "cor": "#1b5e20",
+      "link_extra": {
+        "text": "Aulas de Geografia",
+        "url": "https://www.edsonmaiap.wordpress.com"
+      },
+      "videos": [
+        {
+          "titulo": "Como fazer Globo Terrestre",
+          "url": "https://www.youtube.com/watch?v=zBVCW8xc19Q"
+        },
+        {
+          "titulo": "As paisagens do mundo",
+          "url": "https://www.youtube.com/watch?v=B_nq7VTJZds"
+        },
+        {
+          "titulo": "As paisagens e suas transformações",
+          "url": "https://www.youtube.com/watch?v=8PjBddZ2cdo"
+        },
+        {
+          "titulo": "Paisagem Geográfica e Espaço Geográfico",
+          "url": "https://www.youtube.com/watch?v=yqZsBn5Z1xc"
+        },
+        {
+          "titulo": "Espaço, Lugar e Território",
+          "url": "https://www.youtube.com/watch?v=ee15tCw1kYo"
+        },
+        {
+          "titulo": "Orientação e Localização",
+          "url": "https://www.youtube.com/watch?v=QUc_M1b1uNE"
+        },
+        {
+          "titulo": "Formas de Representação da Terra: Os mapas",
+          "url": "https://www.youtube.com/watch?v=YzBkkC2SXxM"
+        }
+      ]
+    },
+    {
+      "titulo": "Como fazer",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Como fazer",
+        "url": "https://www.edsonmaiap.wordpress.com"
+      },
+      "videos": [
+        {
+          "titulo": "Como fazer bússola",
+          "url": "https://www.youtube.com/watch?v=pYG6MUbLnVY"
+        },
+        {
+          "titulo": "Como fazer Jogo da Memória de Orientação em Geografia",
+          "url": "https://www.youtube.com/watch?v=pvFy8PhJ-sY"
+        },
+        {
+          "titulo": "Como fazer Jogo da Memória impresso",
+          "url": "https://www.youtube.com/watch?v=Cy7Y8Jmdw8w"
+        },
+        {
+          "titulo": "Extra 01 - Como usar o Google Earth",
+          "url": "https://www.youtube.com/watch?v=1PZIVrYUIhI"
+        },
+        {
+          "titulo": "Extra 02 - App Merge Explorer",
+          "url": "https://www.youtube.com/watch?v=70LgFtkVfzY"
+        }
+      ]
+    },
+    {
+      "titulo": "Como usar",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Como usar",
+        "url": "https://www.edsonmaiap.wordpress.com"
+      },
+      "videos": [
+        {
+          "titulo": "Extra 01 - Como usar o Google Earth",
+          "url": "https://www.youtube.com/watch?v=1PZIVrYUIhI"
+        },
+        {
+          "titulo": "Extra 02 - App Merge Explorer",
+          "url": "https://www.youtube.com/watch?v=70LgFtkVfzY"
+        }
+      ]
+    },
+    {
+      "titulo": "Filmes",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
+        {
+          "titulo": "Gattaca",
+          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+        },
+        {
+          "titulo": "A Chegada",
+          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+        },
+        {
+          "titulo": "Feitiço do Tempo",
+          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "Formação de Jogos na Alura",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "titulo": "Final Fantasy 7",
+          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+        },
+        {
+          "titulo": "Assassins Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+        },
+        {
+          "titulo": "God of War 4",
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+        },
+        {
+          "titulo": "Pokémon Let's Go Pikachu/Eevee",
+          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+        }
+      ]
+    },
+    {
+      "titulo": "Aprendendo a aprender tecnologia",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Curso sobre aprendizado na Alura",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      },
+      "videos": [
+        {
+          "titulo": "Como estudar melhor?",
+          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+        },
+        {
+          "titulo": "Faculdade",
+          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+        },
+        {
+          "titulo": "Frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        },
+        {
+          "titulo": "A mágica do Aprendizado",
+          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+        },
+        {
+          "titulo": "Como aprender a programar?",
+          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    }
+  ]
+}
