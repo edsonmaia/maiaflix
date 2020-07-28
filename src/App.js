@@ -14,7 +14,7 @@ function App() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Aprenda como fazer o seu Globo Terrestre"}
+        videoDescription={"Aprenda como fazer o seu próprio Globo Terrestre"}
       />
       
     <Carousel
