@@ -9,7 +9,7 @@ function Home() {
   return (
     <div style={{ background: "#141414" }}>
       <Menu />
-
+      
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
@@ -20,8 +20,9 @@ function Home() {
         ignoreFirstVideo
         category={dadosIniciais.categorias[0]}
       />
-
+      
       <Carousel
+        
         category={dadosIniciais.categorias[1]}
       />
 

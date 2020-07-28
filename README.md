@@ -47,3 +47,8 @@ Trabalhamos:
 8. Criação do formulário para cadastrar categoria;
 9. Deploy da sua AluraFlix na Vercel.
 
+## Extra Aula 02
+
+Utilizei ícones do https://react-icons.github.io/
+da FontAwesome
+https://react-icons.github.io/icons?name=fa
