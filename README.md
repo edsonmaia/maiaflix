@@ -11,14 +11,24 @@ Edson Maia
 
 ## Mediadores
 
-*Mario Souto*
+**Mario Souto**
 instrutor da Alura, engenheiro Nubank
   
-*Juliana Negreiros*
+**Juliana Negreiros**
 coorndenadora de front-end da Alura
   
-*Marco Bruno*
+**Marco Bruno**
 engenheiro de software na Suécia
   
-*Paulo Silveira*
+**Paulo Silveira**
 CEO da Alura
+
+## Aula 01
+
+Vimos como:
+
+1. Criar a estrutura do projeto
+2. Criar página principal
+3. Criar components
+4. Fazer Deploy no Vercel
+5. Desafios de personalização e publicação no GitHub

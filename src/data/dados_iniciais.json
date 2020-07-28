@@ -113,7 +113,25 @@
       "titulo": "As intervenções humanas na dinâmica climáticas",
       "url": "https://www.youtube.com/watch?v=V-v3wTK_KpI"
     }
-]
+  ]
+},
+{
+  "titulo": "Clima e Vegetação",
+  "cor": "green",
+  "videos": [
+    {
+      "titulo": "Os climas e a vegetação natural",
+      "url": "https://www.youtube.com/watch?v=bhQsWpGSLeQ"
+    },
+    {
+      "titulo": "Os climas do mundo e do Brasil",
+      "url": "https://www.youtube.com/watch?v=oYZZybbhJII"
+    },
+    {
+      "titulo": "Terra: Grandes paisagens vegetais naturais",
+      "url": "https://www.youtube.com/watch?v=tnFEqmtoNY8"
+    }
+  ]
 },
     {
       "titulo": "Filmes",
