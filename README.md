@@ -32,3 +32,18 @@ Vimos como:
 3. Criar components
 4. Fazer Deploy no Vercel
 5. Desafios de personalização e publicação no GitHub
+
+## Aula 02
+
+Trabalhamos:
+
+1. O que é um SPA;
+2. Utilizamos a react-router-dom para controlar as rotas;
+3. Diferença entre a tag a e o component Link;
+4. Como lidar com caminhos paths que não existe, famoso 404;
+5. Carousel com a react-slick;
+6. Criamos um template com o cabelho e o rodapé;
+7. Como deixar sempre o footer embaixo na página;
+8. Criação do formulário para cadastrar categoria;
+9. Deploy da sua AluraFlix na Vercel.
+

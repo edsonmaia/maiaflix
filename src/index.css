@@ -32,3 +32,83 @@
     display: flex;
     flex-direction: column;
   }
+/* meu css */
+  h1 {
+    text-align: center;
+  }
+
+  .meuForm {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', opens-sans;
+    font-size: 20px;
+  }
+
+  .meuForm input, .meuForm select, .meuForm textarea {
+    width: 100%;
+    height: 40px;
+    color: white;
+    padding: 5px;
+    background: #555;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    border-style: none;
+    border-bottom: 2px solid red;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #descricao {
+    height: 100px;
+  }
+
+  #botoes {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .botao {
+    cursor: pointer;
+    padding: 10px 30px;
+    font-weight: bold;
+    color: white;
+    background: var(--red);
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 20px;
+  }
+
+  .botao:hover {
+    transition: background 0.5s linear;
+    background: #c62828;
+  }
+
+  #botaoLimpar {
+    color: black;
+    background: gray;
+  }
+
+  #botaoLimpar:hover {
+    color: #cecece;
+    transition: background 0.5s linear;
+    background: #424242;
+  }
+
+  .linkPara {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    background: black;
+    padding: 10px;
+    border: 1px solid var(--red);
+    border-radius: 5px;
+  }
+
+  .linkPara:hover {
+    color: #424242;
+    border: 1px solid #b71c1c;
+    transition: 0.2s linear;
+  }
