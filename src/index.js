@@ -6,6 +6,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
+import NovoVideo from './pages/cadastro/NovoVideo';
 
 // Desafio master blaster na descrição
 // Colocar um jogo nessa página: https://www.youtube.com/watch?v=jOAU81jdi-c :)
@@ -17,6 +18,7 @@ ReactDOM.render(
       <Route path="/" component={Home} exact />
       <Route path="/cadastro/video" component={CadastroVideo} />
       <Route path="/cadastro/categoria" component={CadastroCategoria} />
+      <Route path="/cadastro/novovideo" component={NovoVideo} />
       <Route component={Pagina404} />
     </Switch>
   </BrowserRouter>,

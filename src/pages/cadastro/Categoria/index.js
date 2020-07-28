@@ -7,24 +7,27 @@ function CadastroCategoria() {
     <PageDefault>
       <h1>Cadastro de Categoria</h1>
 
-      <form>
+      <form className="meuForm">
 
         <label>
           Nome da Categoria:
           <input
+            autofocus="autofocus"
             type="text"
-          />
+            placeholder="Nome da categoria"
+            required="required"
+          />  
         </label>
 
-        <button>
+        <button class="botao">
           Cadastrar
         </button>
       </form>
 
-
-      <Link to="/">
+      <Link className="linkPara" to="/">
         Ir para home
       </Link>
+
     </PageDefault>
   )
 }
