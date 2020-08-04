@@ -1,83 +1,89 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+/* eslint-disable arrow-body-style */
+import React, { useEffect, useState } from 'react';
+import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
+import useForm from '../../../hooks/useForm';
+import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
+import videosRepository from '../../../repositories/videos';
+import categoriasRepository from '../../../repositories/categorias';
 
-function NovoVideo() {
+function CadastroVideo() {
+  const history = useHistory();
+  const [categorias, setCategorias] = useState([]);
+  const categoryTitles = categorias.map(({ titulo }) => titulo);
+  const { handleChange, values } = useForm({
+    titulo: 'Video padrão',
+    url: 'https://www.youtube.com/watch?v=zBVCW8xc19Q',
+    categoria: 'Geografia',
+  });
+
+  useEffect(() => {
+    categoriasRepository
+      .getAll()
+      .then((categoriasFromServer) => {
+        setCategorias(categoriasFromServer);
+      });
+  }, []);
+
   return (
     <PageDefault>
-      <h1>Novo Vídeo</h1>
+      <h1>Cadastro de Video</h1>
 
-      <Link className="linkPara" to="/"> Ir para home </Link>
+      <form onSubmit={(event) => {
+        event.preventDefault();
+        // alert('Video Cadastrado com sucesso!!!1!');
+        const categoriaEscolhida = categorias.find((categoria) => {
+          return categoria.titulo === values.categoria;
+        });
 
-        <form className="meuForm">
+        videosRepository.create({
+          titulo: values.titulo,
+          url: values.url,
+          categoriaId: categoriaEscolhida.id,
+        })
+          .then(() => {
+            // eslint-disable-next-line no-console
+            console.log('Cadastrou com sucesso!');
+            history.push('/');
+          });
+      }}
+      >
+        <FormField
+          label="Título do Vídeo"
+          name="titulo"
+          value={values.titulo}
+          onChange={handleChange}
+        />
 
-        <label>
-            <input
-                autofocus="autofocus"
-                id="titulo"
-                name="titulo"
-                type="text"
-                placeholder="Título"
-            />
-        </label>
+        <FormField
+          label="URL"
+          name="url"
+          value={values.url}
+          onChange={handleChange}
+        />
 
-        <label>
-            <input
-                id="linkVideo"
-                name="linkVideo"
-                type="text"
-                placeholder="Link do vídeo"
-            />
-        </label>
+        <FormField
+          label="Categoria"
+          name="categoria"
+          value={values.categoria}
+          onChange={handleChange}
+          suggestions={categoryTitles}
+        />
 
-        <label>
-            <input
-                id="linkImagem"
-                name="linkImagem"
-                type="text"
-                placeholder="Link da imagem do vídeo"
-            />
-        </label>
+        <Button type="submit">
+          Cadastrar
+        </Button>
+      </form>
 
-        <label>
-            <select
-                id="listaCategoria"
-                name="listaCategoria"
-                placeholder="Escolha uma categoria"
-            >
-                <option value="Geografia">Geografia</option>
-                <option value="Cultura">Cultura</option>
-                <option value="Tecnologia">Tecnologia</option>
-            </select>
-        </label>
+      <br />
+      <br />
 
-        <label>
-            <textarea
-                id="descricao"
-                name="descricao"
-                placeholder="Descrição do vídeo">
-            </textarea>
-        </label>
-        
-        <label>
-            <input
-                id="codigoSeguranca"
-                name="codigoSeguranca"
-                type="text"
-                placeholder="Código de segurança"
-            />
-        </label>
-        
-        <div id="botoes">
-            <button className="botao" id="botaoSalvar" type="submit">Salvar</button>
-        <span> </span>
-            <button className="botao" id="botaoLimpar" type="reset">Limpar</button>
-        </div>
-
-        </form>
-
+      <Link to="/cadastro/categoria">
+        Cadastrar Categoria
+      </Link>
     </PageDefault>
-  )
+  );
 }
 
-export default NovoVideo;
+export default CadastroVideo;
