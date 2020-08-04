@@ -47,8 +47,25 @@ Trabalhamos:
 8. Criação do formulário para cadastrar categoria;
 9. Deploy da sua AluraFlix na Vercel.
 
-## Extra Aula 02
+## Aula 03
 
-Utilizei ícones do https://react-icons.github.io/
-da FontAwesome
-https://react-icons.github.io/icons?name=fa
+1. Trabalhar com elementos dinâmicos na tela da nossa aplicação.
+2. Formulários reutilizáveis
+3. Componentes
+
+## Aula 04
+
+1. Ajax, validação e o back-end
+2. Garantindo padrões de código com EsLint
+3. Configurando o nosso servidor portátil com json-server
+
+## Aula 05
+
+1. Gerenciamento de videos com React e JavaScript
+2. Cadastro de vídeos
+3. Reuso para reuso de lógicas de state
+4. Deixando a Home dinâmica
+5. Fazendo as categorias aparecerem
+6. Cadastrando vídeos
+
+### Bem isso é só por enquanto
