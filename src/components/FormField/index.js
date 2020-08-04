@@ -67,7 +67,7 @@ const Input = styled.input`
         }
       `;
   }
-  }
+}
 `;
 
 function FormField({
