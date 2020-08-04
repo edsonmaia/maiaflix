@@ -1,0 +1,166 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Geografia",
+      "cor": "#1b5e20",
+      "link_extra": {
+        "text": "Geografia",
+        "url": "https://edsonmaiap.wordpress.com/category/geografia"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Como fazer",
+      "cor": "#00C86F"
+    },
+    {
+      "id": 3,
+      "titulo": "Como usar",
+      "cor": "#9cd33b"
+    },
+    {
+      "id": 4,
+      "titulo": "Astronomia",
+      "cor": "purple"
+    },
+    {
+      "id": 5,
+      "titulo": "Climatologia e Meteorologia",
+      "cor": "red"
+    },
+    {
+      "id": 6,
+      "titulo": "Clima e Vegetação",
+      "cor": "green"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Como fazer Globo Terrestre",
+      "url": "https://www.youtube.com/watch?v=zBVCW8xc19Q"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "As paisagens do mundo",
+      "url": "https://www.youtube.com/watch?v=B_nq7VTJZds"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "As paisagens e suas transformações",
+      "url": "https://www.youtube.com/watch?v=8PjBddZ2cdo"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Paisagem Geográfica e Espaço Geográfico",
+      "url": "https://www.youtube.com/watch?v=yqZsBn5Z1xc"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Espaço, Lugar e Território",
+      "url": "https://www.youtube.com/watch?v=ee15tCw1kYo"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Orientação e Localização",
+      "url": "https://www.youtube.com/watch?v=QUc_M1b1uNE"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Formas de Representação da Terra: Os mapas",
+      "url": "https://www.youtube.com/watch?v=YzBkkC2SXxM"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Como fazer bússola",
+      "url": "https://www.youtube.com/watch?v=pYG6MUbLnVY"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Como fazer Jogo da Memória de Orientação em Geografia",
+      "url": "https://www.youtube.com/watch?v=Cy7Y8Jmdw8w"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Como fazer Jogo da Memória impresso",
+      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Produzir maquete em EVA",
+      "url": "https://www.youtube.com/watch?v=AeHMawcMxVQ"
+    },
+    {
+      "id": 12,
+      "categoriaId": 3,
+      "titulo": "Extra 01 - Como usar o Google Earth",
+      "url": "https://www.youtube.com/watch?v=1PZIVrYUIhI"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "Extra 02 - App Merge Explorer",
+      "url": "https://www.youtube.com/watch?v=70LgFtkVfzY"
+    },
+    {
+      "id": 14,
+      "categoriaId": 4,
+      "titulo": "A Terra no Sistema Solar",
+      "url": "https://www.youtube.com/watch?v=2JTPUXqWEKg"
+    },
+    {
+      "id": 15,
+      "categoriaId": 4,
+      "titulo": "A Terra em movimento",
+      "url": "https://www.youtube.com/watch?v=_hvwmwCIbSA"
+    },
+    {
+      "id": 16,
+      "categoriaId": 5,
+      "titulo": "A circulação geral da atmosfera, o tempo e o clima",
+      "url": "https://www.youtube.com/watch?v=1lZDLyMKwwE"
+    },
+    {
+      "id": 17,
+      "categoriaId": 5,
+      "titulo": "Ciclones, Furacões, Tufões e Tornados",
+      "url": "https://www.youtube.com/watch?v=11NJB81im1Q"
+    },
+    {
+      "id": 18,
+      "categoriaId": 5,
+      "titulo": "As intervenções humanas na dinâmica climáticas",
+      "url": "https://www.youtube.com/watch?v=V-v3wTK_KpI"
+    },
+    {
+      "id": 19,
+      "categoriaId": 6,
+      "titulo": "Os climas e a vegetação natural",
+      "url": "https://www.youtube.com/watch?v=bhQsWpGSLeQ"
+    },
+    {
+      "id": 20,
+      "categoriaId": 6,
+      "titulo": "Os climas do mundo e do Brasil",
+      "url": "https://www.youtube.com/watch?v=oYZZybbhJII"
+    },
+    {
+      "id": 21,
+      "categoriaId": 6,
+      "titulo": "Terra: Grandes paisagens vegetais naturais",
+      "url": "https://www.youtube.com/watch?v=tnFEqmtoNY8"
+    }
+  ]
+}
