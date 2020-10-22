@@ -48,6 +48,10 @@ function App() {
       <Carousel
         category={dadosIniciais.categorias[7]}
       />
+    
+      <Carousel
+        category={dadosIniciais.categorias[8]}
+      />
 
       <Footer />
     </div>
