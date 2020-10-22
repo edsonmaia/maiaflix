@@ -10,6 +10,7 @@ function Menu() {
       <Link to="/">
         <img className="Logo" src={Logo} alt="MaiaFlix logo" />
       </Link>
+    </nav>
   );
 }
 
