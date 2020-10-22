@@ -33,7 +33,12 @@
       "id": 6,
       "titulo": "Clima e Vegetação",
       "cor": "green"
-    }
+    },
+    {
+      "id": 7,
+      "titulo": "Relevo",
+      "cor": "#37474f"
+    },
   ],
   "videos": [
     {
@@ -161,6 +166,18 @@
       "categoriaId": 6,
       "titulo": "Terra: Grandes paisagens vegetais naturais",
       "url": "https://www.youtube.com/watch?v=tnFEqmtoNY8"
+    },
+    {
+      "id": 22,
+      "categoriaId": 7,
+      "titulo": "Litosfera e o Relevo Continental",
+      "url": "https://www.youtube.com/watch?v=cp_xDdMT6eU"
+    },
+    {
+      "id": 23,
+      "categoriaId": 7,
+      "titulo": "Relevo continental e agentes externos",
+      "url": "https://www.youtube.com/watch?v=3XPAx3aQ760"
     }
   ]
 }
