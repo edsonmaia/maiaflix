@@ -8,13 +8,14 @@ function Menu() {
   return (
     <nav className="Menu">
       <Link to="/">
-        <img className="Logo" src={Logo} alt="AluraFlix logo" />
+        <img className="Logo" src={Logo} alt="MaiaFlix logo" />
       </Link>
-
+/*
       <Button as={Link} className="ButtonLink" to="/cadastro/video">
         Novo vídeo
       </Button>
     </nav>
+    */
   );
 }
 
